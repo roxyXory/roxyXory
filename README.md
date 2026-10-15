@@ -37,7 +37,6 @@
   <img src="https://img.shields.io/badge/Bash-101916?style=for-the-badge&logo=gnubash&logoColor=46edaa" alt="Bash" />
   <img src="https://img.shields.io/badge/PowerShell-101916?style=for-the-badge&logo=powershell&logoColor=46edaa" alt="PowerShell" />
   <img src="https://img.shields.io/badge/Git-101916?style=for-the-badge&logo=git&logoColor=46edaa" alt="Git" />
-  <img src="https://img.shields.io/badge/SaltStack-101916?style=for-the-badge&logoColor=46edaa" alt="SaltStack" />
   <img src="https://img.shields.io/badge/Debian-101916?style=for-the-badge&logo=debian&logoColor=46edaa" alt="Debian" />
   <img src="https://img.shields.io/badge/Apache-101916?style=for-the-badge&logo=apache&logoColor=46edaa" alt="Apache" />
   <img src="https://img.shields.io/badge/Kerberos-101916?style=for-the-badge&logoColor=46edaa" alt="Kerberos" />
@@ -52,7 +51,7 @@
      Active: active (running)
 
      [+] Linux & Windows administration
-     [+] Salt master / minion configuration
+     [+] Configuration and scripting practice
      [+] Bash & PowerShell experiments
      [+] Networking and useful services
 ```
@@ -71,7 +70,7 @@
 ```text
 /srv/lab
 ├── automation/
-│   └── salt-master + windows minions
+│   └── Bash + PowerShell scripts
 ├── virtualization/
 │   └── KVM / libvirt
 ├── web-infrastructure/
@@ -86,7 +85,7 @@
 |:--|:--|:--|
 | `linux-core` | Debian, Bash, services | Exploring |
 | `windows-endpoints` | Windows 11, PowerShell | Exploring |
-| `salt-automation` | Minions, states, configuration | Building |
+| `script-automation` | Bash, PowerShell, repeatable tasks | Building |
 | `network-stack` | VPN, routing, Kerberos | Learning |
 
 ### `roxyXory@github:~$ cat current_mission.txt`
