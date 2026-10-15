@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="625" viewBox="0 0 1200 625" role="img" aria-labelledby="title desc">
+<title id="title">roxyXory — Cyber Terminal dashboard</title>
+<desc id="desc">A cyber-green GitHub portfolio dashboard with an RX monogram, a persona card, and cards for Linux, Windows, automation and networking. No private repositories or invented statistics.</desc>
+<defs>
+ <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020906"/><stop offset=".65" stop-color="#041309"/><stop offset="1" stop-color="#020a06"/></linearGradient>
+ <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#164b29"/><stop offset="1" stop-color="#05190c"/></linearGradient>
+ <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071c0e"/><stop offset="1" stop-color="#021009"/></linearGradient>
+ <radialGradient id="haze" cx=".68" cy=".18" r=".9"><stop stop-color="#0d441e" stop-opacity=".84"/><stop offset="1" stop-color="#071b0d" stop-opacity="0"/></radialGradient>
+ <filter id="halo"><feGaussianBlur stdDeviation="18"/></filter>
+ <pattern id="mesh" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#184d29" stroke-opacity=".16" fill="none"/></pattern>
+ <clipPath id="clip"><rect x="1" y="1" width="1198" height="623" rx="22"/></clipPath>
+ <style>
+ text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace}
+ @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.12}}
+ @keyframes pulse{0%,100%{opacity:.65}50%{opacity:1}}
+ #cursor{animation:blink 1.2s steps(1) infinite}
+ .pulse{animation:pulse 2.5s ease-in-out infinite}
+ </style>
+</defs>
+<g clip-path="url(#clip)">
+<rect x="0" y="0" width="1200" height="625" rx="22" fill="url(#page)" stroke="#113b22" />
+<rect x="0" y="55" width="1200" height="570" fill="url(#mesh)"/>
+<rect x="0" y="0" width="1200" height="57" fill="#020d07"/>
+<path d="M0 57h1200" stroke="#215032"/>
+<rect x="19" y="15" width="31" height="31" rx="8" fill="#0b2a15" stroke="#17482b" /><text x="28" y="36" fill="#4bf180" font-size="20" font-weight="700" >⌘</text>
+<text x="65" y="37" fill="#f1fff2" font-size="20" font-weight="800" >roxyXory</text><text x="197" y="36" fill="#579f69" font-size="13" font-weight="500" >// CYBER PROFILE</text>
+<text x="961" y="36" fill="#49f086" font-size="13" font-weight="750" >OVERVIEW</text><text x="1070" y="36" fill="#93bb9c" font-size="13" font-weight="400" >GITHUB</text>
+<!-- left identity panel -->
+<rect x="18" y="75" width="280" height="531" rx="19" fill="url(#panel)" stroke="#1c502c" />
+<circle cx="158" cy="198" r="79" fill="#24df72" opacity=".12" filter="url(#halo)"/>
+<circle cx="158" cy="198" r="78" fill="#020f08" stroke="#44df79" stroke-width="7"/>
+<circle cx="158" cy="198" r="69" fill="url(#avatar)" stroke="#217041" stroke-width="1"/>
+<path d="M117 166h82v65h-82z" fill="none" stroke="#318a51" stroke-dasharray="2 6" opacity=".32"/>
+<text x="158" y="214" fill="#4df68c" font-size="52" font-weight="800" text-anchor="middle" letter-spacing="-5">RX</text>
+<text x="40" y="304" fill="#e2ffe8" font-size="30" font-weight="500" >roxyXory</text>
+<text x="40" y="327" fill="#94d3a8" font-size="11" font-weight="400" >@roxyXory  ·  systems &amp; automation</text>
+<g><rect x="40" y="347" width="116" height="71" rx="12" fill="#082511" stroke="#235833" /><text x="52" y="370" fill="#45f38a" font-size="13" font-weight="800" >01</text><text x="80" y="369" fill="#eefef0" font-size="14" font-weight="700" >LINUX</text><text x="52" y="398" fill="#7eb08b" font-size="10" font-weight="400" >Sysadmin</text></g><g><rect x="166" y="347" width="116" height="71" rx="12" fill="#082511" stroke="#235833" /><text x="178" y="370" fill="#45f38a" font-size="13" font-weight="800" >02</text><text x="206" y="369" fill="#eefef0" font-size="14" font-weight="700" >WIN11</text><text x="178" y="398" fill="#7eb08b" font-size="10" font-weight="400" >Endpoint</text></g><g><rect x="40" y="429" width="116" height="71" rx="12" fill="#082511" stroke="#235833" /><text x="52" y="452" fill="#45f38a" font-size="13" font-weight="800" >03</text><text x="80" y="451" fill="#eefef0" font-size="14" font-weight="700" >SALT</text><text x="52" y="480" fill="#7eb08b" font-size="10" font-weight="400" >Automation</text></g><g><rect x="166" y="429" width="116" height="71" rx="12" fill="#082511" stroke="#235833" /><text x="178" y="452" fill="#45f38a" font-size="13" font-weight="800" >04</text><text x="206" y="451" fill="#eefef0" font-size="14" font-weight="700" >NET</text><text x="178" y="480" fill="#7eb08b" font-size="10" font-weight="400" >Services</text></g>
+<rect x="40" y="521" width="236" height="40" rx="11" fill="#03160a" stroke="#255832" /><text x="54" y="547" fill="#63e896" font-size="13" font-weight="700" >✦  PUBLIC PROFILE</text>
+<text x="40" y="589" fill="#779a7e" font-size="12" font-weight="400" >github.com/roxyXory</text>
+<!-- persona card -->
+<rect x="315" y="75" width="542" height="270" rx="19" fill="url(#panel)" stroke="#20512d" />
+<rect x="328" y="88" width="516" height="243" rx="14" fill="url(#haze)" opacity=".9"/>
+<g opacity=".20" transform="translate(700 0)"><g><text x="0" y="0" fill="#d5f5dc" font-size="10" font-weight="400" ></text><text x="0" y="0" fill="#44e67e" font-size="11"><tspan x="0" dy="0">1</tspan><tspan x="0" dy="19">0</tspan><tspan x="0" dy="19">ssh</tspan><tspan x="0" dy="19">sudo</tspan><tspan x="0" dy="19">cron</tspan><tspan x="0" dy="19">root</tspan></text><animateTransform attributeName="transform" type="translate" values="0,-70;0,350" dur="7.6s" repeatCount="indefinite"/></g></g><g opacity=".20" transform="translate(739 0)"><g><text x="0" y="0" fill="#d5f5dc" font-size="10" font-weight="400" ></text><text x="0" y="0" fill="#44e67e" font-size="11"><tspan x="0" dy="0">bash</tspan><tspan x="0" dy="19">001</tspan><tspan x="0" dy="19">salt</tspan><tspan x="0" dy="19">1</tspan><tspan x="0" dy="19">tcp</tspan></text><animateTransform attributeName="transform" type="translate" values="0,-120;0,350" dur="9.1s" repeatCount="indefinite"/></g></g><g opacity=".20" transform="translate(780 0)"><g><text x="0" y="0" fill="#d5f5dc" font-size="10" font-weight="400" ></text><text x="0" y="0" fill="#44e67e" font-size="11"><tspan x="0" dy="0">0</tspan><tspan x="0" dy="19">1</tspan><tspan x="0" dy="19">git</tspan><tspan x="0" dy="19">101</tspan><tspan x="0" dy="19">grep</tspan></text><animateTransform attributeName="transform" type="translate" values="0,-30;0,350" dur="8.2s" repeatCount="indefinite"/></g></g><g opacity=".20" transform="translate(818 0)"><g><text x="0" y="0" fill="#d5f5dc" font-size="10" font-weight="400" ></text><text x="0" y="0" fill="#44e67e" font-size="11"><tspan x="0" dy="0">node</tspan><tspan x="0" dy="19">010</tspan><tspan x="0" dy="19">systemctl</tspan></text><animateTransform attributeName="transform" type="translate" values="0,-93;0,350" dur="7.9s" repeatCount="indefinite"/></g></g>
+<g><rect x="337" y="101" width="127" height="24" rx="12" fill="#0b2b15" stroke="#2a703b" /><text x="349" y="117" fill="#7ff9a2" font-size="11" font-weight="700" >PERSONA CARD</text></g>
+<text x="337" y="171" fill="#4dff92" font-size="47" font-weight="800" letter-spacing="-2">roxyXory</text>
+<rect x="574" y="143" width="12" height="35" fill="#8affe0" id="cursor"/>
+<text x="337" y="199" fill="#a0e5b4" font-size="14" font-weight="650" >@roxyXory · Linux / Windows / Automation</text>
+<text x="337" y="230" fill="#acc9b2" font-size="13" font-weight="400" >Learning by building, one system at a time.</text>
+<g><rect x="337" y="256" width="68" height="24" rx="12" fill="#0b2b15" stroke="#2a703b" /><text x="349" y="272" fill="#7ff9a2" font-size="11" font-weight="700" >LINUX</text></g><g><rect x="414" y="256" width="94" height="24" rx="12" fill="#0b2b15" stroke="#2a703b" /><text x="426" y="272" fill="#7ff9a2" font-size="11" font-weight="700" >WINDOWS</text></g><g><rect x="517" y="256" width="113" height="24" rx="12" fill="#0b2b15" stroke="#2a703b" /><text x="529" y="272" fill="#7ff9a2" font-size="11" font-weight="700" >SALTSTACK</text></g><g><rect x="638" y="256" width="66" height="24" rx="12" fill="#0b2b15" stroke="#2a703b" /><text x="650" y="272" fill="#7ff9a2" font-size="11" font-weight="700" >BASH</text></g><g><rect x="712" y="256" width="121" height="24" rx="12" fill="#0b2b15" stroke="#2a703b" /><text x="724" y="272" fill="#7ff9a2" font-size="11" font-weight="700" >POWERSHELL</text></g>
+<path d="M337 302h480" stroke="#25663d" stroke-width="1"/>
+<text x="337" y="323" fill="#8bd4a1" font-size="12" font-weight="400" >$ systemctl is-active curiosity</text><text x="631" y="323" fill="#44eb82" font-size="12" font-weight="700" >active</text>
+<!-- right info card -->
+<rect x="873" y="75" width="309" height="270" rx="19" fill="#041109" stroke="#1c502c" />
+<text x="893" y="112" fill="#4feb89" font-size="14" font-weight="800" letter-spacing="2">SKIN TEMPLATE</text>
+<text x="893" y="158" fill="#f1fff3" font-size="34" font-weight="500" >CYBER</text>
+<text x="893" y="194" fill="#9dd3a7" font-size="13" font-weight="400" >Native GitHub README edition</text>
+<text x="893" y="219" fill="#9dd3a7" font-size="13" font-weight="400" >Cyber portfolio → GitHub Pages</text>
+<rect x="893" y="241" width="155" height="41" rx="9" fill="#112f19" stroke="#2f7a48" />
+<text x="909" y="267" fill="#89ffab" font-size="14" font-weight="800" >[ SITE ONLINE ]</text>
+<text x="893" y="317" fill="#628969" font-size="12" font-weight="400" >No artificial stars. No public leaks.</text>
+<!-- section title -->
+<text x="320" y="383" fill="#c1ffcb" font-size="16" font-weight="750" >&gt; ~/focus --active</text>
+<text x="1021" y="382" fill="#68ac7b" font-size="12" font-weight="600" >SYSTEMS LAB</text>
+<!-- three lower cards -->
+<g><rect x="315" y="403" width="271" height="183" rx="18" fill="#06120b" stroke="#1d482b" /><rect x="331" y="419" width="36" height="36" rx="10" fill="#0b3018" stroke="#21693a" /><text x="342" y="443" fill="#5aff93" font-size="17" font-weight="700" >01</text><text x="379" y="439" fill="#e9ffed" font-size="19" font-weight="750" >INFRASTRUCTURE</text><text x="332" y="475" fill="#75db9a" font-size="11" font-weight="600" >LINUX + WINDOWS</text><path d="M332 491h237" stroke="#16462a"/><text x="332" y="516" fill="#abd5b4" font-size="12" font-weight="400" >Hosts, services and</text><text x="332" y="538" fill="#abd5b4" font-size="12" font-weight="400" >systems administration</text><text x="332" y="566" fill="#4eb874" font-size="10" font-weight="600" >[ ACTIVE INTEREST ]</text></g>
+<g><rect x="595" y="403" width="277" height="183" rx="18" fill="#06120b" stroke="#1d482b" /><rect x="611" y="419" width="36" height="36" rx="10" fill="#0b3018" stroke="#21693a" /><text x="622" y="443" fill="#5aff93" font-size="17" font-weight="700" >02</text><text x="659" y="439" fill="#e9ffed" font-size="19" font-weight="750" >AUTOMATION</text><text x="612" y="475" fill="#75db9a" font-size="11" font-weight="600" >SALT + SCRIPTING</text><path d="M612 491h243" stroke="#16462a"/><text x="612" y="516" fill="#abd5b4" font-size="12" font-weight="400" >Master/minion workflows,</text><text x="612" y="538" fill="#abd5b4" font-size="12" font-weight="400" >Bash and PowerShell</text><text x="612" y="566" fill="#4eb874" font-size="10" font-weight="600" >[ ACTIVE INTEREST ]</text></g>
+<g><rect x="881" y="403" width="301" height="183" rx="18" fill="#06120b" stroke="#1d482b" /><rect x="897" y="419" width="36" height="36" rx="10" fill="#0b3018" stroke="#21693a" /><text x="908" y="443" fill="#5aff93" font-size="17" font-weight="700" >03</text><text x="945" y="439" fill="#e9ffed" font-size="19" font-weight="750" >NETWORKING</text><text x="898" y="475" fill="#75db9a" font-size="11" font-weight="600" >HOMELAB + SECURITY</text><path d="M898 491h267" stroke="#16462a"/><text x="898" y="516" fill="#abd5b4" font-size="12" font-weight="400" >Routing, Kerberos SSO</text><text x="898" y="538" fill="#abd5b4" font-size="12" font-weight="400" >and useful network services</text><text x="898" y="566" fill="#4eb874" font-size="10" font-weight="600" >[ ACTIVE INTEREST ]</text></g>
+</g>
+<rect x="1" y="1" width="1198" height="623" rx="22" fill="none" stroke="#1d562c" />
+</svg>
