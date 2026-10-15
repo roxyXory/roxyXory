@@ -138,7 +138,7 @@
               <h2>roxyXory</h2>
               <div class="hero-handle">@roxyXory · Systems &amp; Automation</div>
               <p class="hero-blurb">Linux administration, Windows infrastructure and a curious mind. Learning by building.</p>
-              <div class="chips"><span class="chip">Linux</span><span class="chip">Windows</span><span class="chip">SaltStack</span><span class="chip">PowerShell</span></div>
+              <div class="chips"><span class="chip">Linux</span><span class="chip">Windows</span><span class="chip">Bash</span><span class="chip">PowerShell</span></div>
               <div class="hero-data">
                 <div><small>PUBLIC REPOS</small><strong id="hero-repos">—</strong></div>
                 <div><small>PUBLIC STARS</small><strong id="hero-stars">—</strong></div>
@@ -168,7 +168,7 @@
             <div class="repo-foot"><span class="lang">Profile</span><span>↗ github.com</span></div>
           </a>
           <article class="repo-card"><div class="repo-head"><span class="repo-name">Infrastructure lab</span><span class="pill focus">Focus</span></div><p class="repo-desc">Linux &amp; Windows administration, services and configuration management.</p><div class="repo-foot"><span class="lang">Systems</span><span>Exploring →</span></div></article>
-          <article class="repo-card"><div class="repo-head"><span class="repo-name">Automation</span><span class="pill focus">Focus</span></div><p class="repo-desc">Salt master/minion, Bash, PowerShell and repeatable workflows.</p><div class="repo-foot"><span class="lang">Scripting</span><span>Learning →</span></div></article>
+          <article class="repo-card"><div class="repo-head"><span class="repo-name">Automation</span><span class="pill focus">Focus</span></div><p class="repo-desc">Bash, PowerShell and repeatable workflows.</p><div class="repo-foot"><span class="lang">Scripting</span><span>Learning →</span></div></article>
           <article class="repo-card"><div class="repo-head"><span class="repo-name">Networking</span><span class="pill focus">Focus</span></div><p class="repo-desc">Practical experiments with hosts, services and network operations.</p><div class="repo-foot"><span class="lang">Homelab</span><span>Building →</span></div></article>
         </div>
       </section>
@@ -255,7 +255,7 @@
       if(!repos.length)grid.appendChild(focusCard("No public code projects yet","Private work stays private. Here's what I'm exploring.","Systems"));
       if(repos.length < 4) [
         ["Infrastructure lab","Linux & Windows administration, services and configuration management.","Systems"],
-        ["Automation","Salt master/minion, Bash, PowerShell and repeatable workflows.","Scripting"],
+        ["Automation","Bash, PowerShell and repeatable workflows.","Scripting"],
         ["Networking","Experiments with hosts, services and network operations.","Homelab"]
       ].slice(0,4-repos.length).forEach(f=>grid.appendChild(focusCard(...f)));
       done++;
