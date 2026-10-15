@@ -13,6 +13,13 @@
   <img src="https://img.shields.io/badge/THEME-MATRIX-10251C?style=flat-square&labelColor=14231D&color=2ea675" alt="Matrix theme" />
 </div>
 
+
+<p align="center">
+  <a href="https://roxyxory.github.io/roxyXory/">
+    <img src="https://img.shields.io/badge/%3E__OPEN-CYBER_PORTFOLIO-2e9f71?style=for-the-badge&labelColor=0B1512&logo=github&logoColor=49F5A5" alt="Open cyber portfolio website" />
+  </a>
+</p>
+
 ### `roxyXory@github:~$ cat about.txt`
 
 ```console
