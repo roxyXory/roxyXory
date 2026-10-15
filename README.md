@@ -1,7 +1,7 @@
 <!-- roxyXory / Terminal Hacker Profile -->
 
 <div align="center">
-  <img src="./assets/terminal-header.svg" width="100%" alt="roxyXory terminal header — Linux, Windows, Automation" />
+  <img src="./terminal-header.svg" width="100%" alt="roxyXory terminal header — Linux, Windows, Automation" />
 
   <a href="https://github.com/roxyXory">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3200&pause=1250&color=49F5A5&center=true&vCenter=true&repeat=true&width=850&height=55&lines=%24+whoami+%E2%86%92+roxyXory;%24+cat+%2Fetc%2Finterests+%E2%86%92+Linux+%7C+Windows+%7C+Automation;%24+systemctl+status+curiosity+%E2%86%92+active+(running)" alt="Animated terminal typing" />
