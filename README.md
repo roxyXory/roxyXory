@@ -1,89 +1,69 @@
-<!-- roxyXory / Terminal Hacker Profile -->
-
+<!-- roxyXory · CYBER / Terminal Hacker -->
 <div align="center">
-  <img src="./terminal-header.svg" width="100%" alt="roxyXory terminal header — Linux, Windows, Automation" />
 
-  <a href="https://github.com/roxyXory">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3200&pause=1250&color=49F5A5&center=true&vCenter=true&repeat=true&width=860&height=55&lines=%24+whoami+%E2%86%92+roxyXory;%24+cat+%2Fetc%2Finterests+%E2%86%92+Linux+%7C+Windows+%7C+Automation;%24+systemctl+status+curiosity+%E2%86%92+active+(running)" alt="Animated terminal typing" />
+  <a href="https://roxyxory.github.io/roxyXory/">
+    <img src="./cyber-overview.svg" width="100%" alt="roxyXory — custom cyber GitHub profile dashboard featuring Linux, Windows, SaltStack and infrastructure automation" />
   </a>
 
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-10251C?style=flat-square&labelColor=14231D&color=2ea675" alt="status online" />
-  <img src="https://img.shields.io/badge/SHELL-bash-10251C?style=flat-square&labelColor=14231D&color=2ea675" alt="shell bash" />
-  <img src="https://img.shields.io/badge/MODE-LEARNING-10251C?style=flat-square&labelColor=14231D&color=2ea675" alt="mode learning" />
-  <img src="https://img.shields.io/badge/THEME-MATRIX-10251C?style=flat-square&labelColor=14231D&color=2ea675" alt="Matrix theme" />
+  <a href="https://roxyxory.github.io/roxyXory/">
+    <img src="https://img.shields.io/badge/%3E__LAUNCH-CYBER_PORTFOLIO-40d77f?style=for-the-badge&labelColor=07140B&logo=githubpages&logoColor=50fb9c" alt="Launch Cyber portfolio" />
+  </a>
+  <a href="https://github.com/roxyXory/roxyXory">
+    <img src="https://img.shields.io/badge/PROFILE-README_SOURCE-29653f?style=for-the-badge&labelColor=07140B&logo=github&logoColor=50fb9c" alt="Readme source" />
+  </a>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2900&pause=1100&color=4DF58A&center=true&vCenter=true&width=850&height=52&lines=%24+whoami+%E2%86%92+roxyXory;%24+systemctl+is-active+learning+%E2%86%92+active;%24+salt+%27%2A%27+test.ping+%E2%86%92+True;%24+echo+%27Automate+everything+repeatable%27" alt="Terminal command typing animation" />
+
+  <img src="https://img.shields.io/badge/STATUS-LEARNING-07140B?style=flat-square&color=38b66f&labelColor=0B2212" alt="Learning" />
+  <img src="https://img.shields.io/badge/ENV-HOMELAB-07140B?style=flat-square&color=38b66f&labelColor=0B2212" alt="Homelab" />
+  <img src="https://img.shields.io/badge/THEME-CYBER-07140B?style=flat-square&color=38b66f&labelColor=0B2212" alt="Cyber theme" />
 </div>
 
+### `roxyXory@github:~$ cat /etc/profile.d/about.sh`
 
-<p align="center">
-  <a href="https://roxyxory.github.io/roxyXory/">
-    <img src="https://img.shields.io/badge/%3E__OPEN-CYBER_PORTFOLIO-2e9f71?style=for-the-badge&labelColor=0B1512&logo=github&logoColor=49F5A5" alt="Open cyber portfolio website" />
-  </a>
-</p>
-
-### `roxyXory@github:~$ cat about.txt`
-
-```console
-> Hey, I'm roxyXory.
-> Interested in Linux, Windows administration and infrastructure automation.
-> I like figuring out how systems work — and making them work together.
-> Exploring configuration management, networking and practical scripting.
+```bash
+#!/usr/bin/env bash
+USER="roxyXory"
+FOCUS=("Linux" "Windows" "Infrastructure" "Automation")
+MOTTO="Learn by doing. Automate the repeatable."
 ```
 
 ### `roxyXory@github:~$ ls /usr/local/toolbox`
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Linux-101916?style=for-the-badge&logo=linux&logoColor=46edaa" alt="Linux" />
-  <img src="https://img.shields.io/badge/Windows-101916?style=for-the-badge&logo=windows11&logoColor=46edaa" alt="Windows" />
-  <img src="https://img.shields.io/badge/Bash-101916?style=for-the-badge&logo=gnubash&logoColor=46edaa" alt="Bash" />
-  <img src="https://img.shields.io/badge/PowerShell-101916?style=for-the-badge&logo=powershell&logoColor=46edaa" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Git-101916?style=for-the-badge&logo=git&logoColor=46edaa" alt="Git" />
-  <img src="https://img.shields.io/badge/SaltStack-101916?style=for-the-badge&logoColor=46edaa" alt="SaltStack" />
+  <img src="https://img.shields.io/badge/Linux-07140B?style=for-the-badge&logo=linux&logoColor=4DF58A" alt="Linux" />
+  <img src="https://img.shields.io/badge/Windows-07140B?style=for-the-badge&logo=windows11&logoColor=4DF58A" alt="Windows" />
+  <img src="https://img.shields.io/badge/Bash-07140B?style=for-the-badge&logo=gnubash&logoColor=4DF58A" alt="Bash" />
+  <img src="https://img.shields.io/badge/PowerShell-07140B?style=for-the-badge&logo=powershell&logoColor=4DF58A" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Git-07140B?style=for-the-badge&logo=git&logoColor=4DF58A" alt="Git" />
+  <img src="https://img.shields.io/badge/SaltStack-07140B?style=for-the-badge&logoColor=4DF58A" alt="SaltStack" />
 </div>
 
-### `roxyXory@github:~$ systemctl status homelab`
+### `roxyXory@github:~$ systemctl list-units --type=service`
 
 ```text
-● homelab.service - Learning by building
-     Loaded: loaded (/etc/systemd/system/homelab.service; enabled)
-     Active: active (running)
-
-     [+] Linux & Windows administration
-     [+] Salt master / minion configuration
-     [+] Bash & PowerShell experiments
-     [+] Networking and useful services
+● infrastructure.service       loaded active   Linux & Windows administration
+● configuration-mgmt.service    loaded active   Salt master / minion experiments
+● network-lab.service          loaded active   Networking, Kerberos & useful services
+● scripting.service            loaded active   Bash & PowerShell
 ```
 
-### `roxyXory@github:~$ tail -f /var/log/learning.log`
+<details>
+  <summary><code>roxyXory@github:~$ ./show-public-stats.sh</code> — expand GitHub activity</summary>
 
-```text
-[ OK ] Stay curious
-[ OK ] Learn by doing
-[ OK ] Automate repetitive tasks
-[ .. ] Next challenge loading...
-```
-
-### `roxyXory@github:~$ cat current_mission.txt`
-
-```text
-[+] Build small, practical tools
-[+] Improve automation workflows
-[+] Learn infrastructure by doing
-[+] Keep the setup simple and useful
-```
-
-### `roxyXory@github:~$ ./show-stats.sh`
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=roxyXory&show_icons=true&hide_border=true&bg_color=0B1512&title_color=46EDAA&text_color=CDEBDD&icon_color=46EDAA&ring_color=46EDAA&count_private=false" alt="Public GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=roxyXory&theme=dark&hide_border=true&background=0B1512&ring=46EDAA&fire=46EDAA&currStreakLabel=46EDAA&sideLabels=9BC4AF&dates=789E89" alt="GitHub contribution streak" />
-</div>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=roxyXory&bg_color=0b1512&color=9bc4af&line=46edaa&point=46edaa&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" alt="Public contribution activity graph" />
-</div>
+  <p align="center">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=roxyXory&show_icons=true&hide_border=true&bg_color=0B1512&title_color=46EDAA&text_color=CDEBDD&icon_color=46EDAA&ring_color=46EDAA" alt="GitHub public stats" />
+    <img height="165" src="https://streak-stats.demolab.com?user=roxyXory&theme=dark&hide_border=true&background=0B1512&ring=46EDAA&fire=46EDAA&currStreakLabel=46EDAA&sideLabels=9BC4AF&dates=789E89" alt="GitHub contribution streak" />
+  </p>
+  <p align="center">
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=roxyXory&bg_color=0b1512&color=9bc4af&line=46edaa&point=46edaa&area=true&hide_border=true" alt="GitHub public activity graph" />
+  </p>
+</details>
 
 ---
 
 <div align="center">
-  <code>[ EOF ]</code> · <code>exit 0</code> · <code>stay curious_</code>
+
+`[ CYBER PROFILE ONLINE ]` · `exit 0` · [**Launch interactive portfolio**](https://roxyxory.github.io/roxyXory/)
+
 </div>
