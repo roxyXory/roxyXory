@@ -109,13 +109,21 @@
 ### `roxyXory@github:~$ ./show-stats.sh`
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=roxyXory&show_icons=true&hide_border=true&bg_color=0B1512&title_color=46EDAA&text_color=CDEBDD&icon_color=46EDAA&ring_color=46EDAA&count_private=false" alt="Public GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=roxyXory&theme=dark&hide_border=true&background=0B1512&ring=46EDAA&fire=46EDAA&currStreakLabel=46EDAA&sideLabels=9BC4AF&dates=789E89" alt="GitHub contribution streak" />
+  <a href="https://github.com/roxyXory?tab=repositories" title="Browse my public repositories">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=roxyXory&show_icons=true&hide_border=true&bg_color=0B1512&title_color=46EDAA&text_color=CDEBDD&icon_color=46EDAA&ring_color=46EDAA&count_private=false" alt="Public GitHub stats" />
+  </a>
+  <a href="https://github.com/roxyXory#js-contribution-activity" title="View my official GitHub contribution history">
+    <img height="165" src="https://streak-stats.demolab.com/?user=roxyXory&theme=dark&hide_border=true&background=0B1512&ring=46EDAA&fire=46EDAA&currStreakLabel=46EDAA&sideLabels=9BC4AF&dates=789E89" alt="GitHub contribution streak" />
+  </a>
 </div>
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=roxyXory&bg_color=0b1512&color=9bc4af&line=46edaa&point=46edaa&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" alt="Public contribution activity graph" />
-</div>
+<p align="center">
+  <a href="https://github.com/roxyXory#js-contribution-activity"><strong>[ ↗ OPEN LIVE CONTRIBUTION GRAPH ON GITHUB ]</strong></a>
+</p>
+
+<p align="center">
+  <sub>Streak stats use GitHub's visible contribution data. Private repository contributions appear only when enabled in the profile's contribution settings.</sub>
+</p>
 
 ---
 
